@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light-Dark-Mode</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav">
+      <div class="menu">
+        <a href="#home" class="links">home</a>
+        <a href="#about" class="links">about</a>
+        <a href="#projects" class="links">projects</a>
+        <a href="#contact" class="links">contact</a>
+      </div>
+      <div class="light-dark">
+        <span class="mode-text">light mode</span>
+        <span> <i class="mode-icon fas fa-sun"></i> </span>
+
+        <label>
+          <input type="checkbox" hidden />
+          <div class="slider"></div>
+        </label>
+      </div>
+    </nav>
+    <!-- home -->
+    <section class="section-center" id="home">
+      <h1 class="title">custom title here</h1>
+      <h3 class="sub-title">welcome to your website!</h3>
+    </section>
+    <!-- about -->
+    <section class="section-center" id="about">
+      <h1 class="title">undraw illustrations</h1>
+      <div class="img-container">
+        <div class="images">
+          <h3>Voice interface</h3>
+          <img
+            src="./img/image1-light.svg"
+            class="image image1"
+            alt="image1"
+          />
+        </div>
+        <div class="images">
+          <h3>programming</h3>
+          <img
+            src="./img//image2-light.svg"
+            class="image image2"
+            alt="image2"
+          />
+        </div>
+        <div class="images">
+          <h3>Proud coder</h3>
+          <img
+            src="./img/image3-light.svg"
+            class="image image3"
+            alt="image3"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+    <section class="section-center" id="projects">
+      <h1 class="title">projects</h1>
+      <div class="btns-container">
+        <button class="btn primary">primary</button>
+        <button class="btn secondary">secondary</button>
+        <button class="btn primary" disabled>disabled</button>
+        <button class="btn font outline">outline</button>
+        <button class="btn font alt-outline">alt outline</button>
+        <button class="btn disabled outline" disabled>disabled</button>
+      </div>
+      <div class="text-back">
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          dolor dolorum in ex illo dolore veniam quibusdam, impedit officiis
+          illum sint quo laboriosam iusto delectus repellat praesentium nisi.
+          Sequi omnis ut eos? Repudiandae iure rem sequi earum laborum dicta,
+          inventore amet provident voluptatibus autem nemo quos, quia magni
+          voluptatem, consectetur obcaecati necessitatibus unde tempore
+          nesciunt. Qui voluptas quaerat asperiores, tenetur debitis eos fuga
+          quo iusto nesciunt, aliquam est? Inventore nihil aliquam ea hic
+          dignissimos temporibus quaerat, vero dolorum nesciunt accusantium.
+        </p>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="section-center" id="contact">
+      <h1 class="title">contact</h1>
+      <div class="social">
+        <a class="link" href="">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="link" href="">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="link" href="">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="link" href="">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a class="link" href="">
+          <i class="fab fa-codepen"></i>
+        </a>
+        <a class="link" href="">
+          <i class="fab fa-medium"></i>
+        </a>
+      </div>
+    </section>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
